@@ -107,6 +107,19 @@ for Testing purpose you can use these STADIUM_ID's
 | 33 |ملعب تجريبي  1|
 | 34 |ملعب تجريبي  2|
 
+# How To get BOOKING_TIME_RANGE_id ? 
+The BOOKING_TIME_RANGE_id Could be change ,
+if there are any changes will be provided by baratit .
+
+| BOOKING_TIME_RANGE_id     | Time range |
+| --------|---------|
+| 1 | من الساعة ١ ص إلى ٢ مساءاً|
+| 2 | من الساعة ١ ص إلى ٢ مساءاً|
+| 3 | من الساعة ١ ص إلى ٢ مساءاً|
+| 4 | من الساعة ١ ص إلى ٢ مساءاً|
+| 5 | من الساعة ١ ص إلى ٢ مساءاً|
+
+
 # API Errors Reference
 Some Times Somthing Just Gone Wrong and it is hard to Debug so Our System is smart enough,
 to Repoert an Error Before excuteing any FUNCTION , and here it is a Reference for all Errors that you might face when start to integration with our system
