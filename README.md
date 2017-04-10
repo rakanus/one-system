@@ -108,7 +108,6 @@ to Repoert an Error Before excuteing any FUNCTION , and here it is a Reference f
 | 0001  | missing authentication DATA   | Check Your GET DATA in your Request the API_USER & API_PASS is missing or equal to zero |
 | 0002  | not vaild authentication DATA   | Check Your GET DATA in your Request the API_USER & API_PASS is not vaild meaning they are wrong |
 | 0011  | missing STADIUM_ID   | Check Your GET DATA in your Request the STADIUM_ID is missing or equal to zero |
-| 0011  | missing STADIUM_ID   | Check Your GET DATA in your Request the STADIUM_ID is missing or equal to zero |
 | 0012  | missing BOOKING_DATE   | Check Your GET DATA in your Request the BOOKING_DATE is missing or equal to zero |
 | 0013  | missing BOOKING_TIME_RANGE_id   | Check Your GET DATA in your Request the BOOKING_TIME_RANGE_id is missing or equal to zero |
 | 0014  | missing USER_PHONE   | Check Your GET DATA in your Request the USER_PHONE is missing or equal to zero |
@@ -116,7 +115,7 @@ to Repoert an Error Before excuteing any FUNCTION , and here it is a Reference f
 | 0016  | BOOKING_DATE timestamp not vaild    | BOOKING_DATE must be as timestamp , the length must be equal to 12, unix timestamp Example : 1489352400000 -> 12/3/2016  |
 | 0017  | BOOKING_TIME_RANGE_id not vaild   | BOOKING_TIME_RANGE_id must be from 1 to 5 only as INTEGR value |
 | 0019  |  wrong STADIUM_ID not found   | STADIUM_ID that you provided in GET DATA is not vaild meaning wrong STADIUM_ID number  |
-| 0018  |  This book is not ALLOWED   | that mean you can not make a book with this Date and time range because there are already booking with this Date an time range |
+| 0018  |  This book is not ALLOWED   | that mean you can not make a book with this Date and time range because there are already booking with this Date an time range in this STADIUM_ID |
 | 0020  | missing BOOKING_ID   | Check Your GET DATA in your Request the BOOKING_ID is missing or equal to zero |
 | 0021  |  Alredy CANCELED book  | this booking is Alredy CANCELED  |
 
