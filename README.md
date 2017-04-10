@@ -18,7 +18,7 @@ this version of webservices is (v1.0.0) which support these functions only :
 # API documentation 
 
 # (1) New Stadium Book 
-this functions for make new book to particular Stadium at particular date and time-range .
+This functions for make new book to particular Stadium at particular date and time-range .
 - NOTICE: There are a charge for each Request with this function .
 * Required Parameter
 ```
@@ -45,7 +45,7 @@ http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=123456
 
 
 # (2) check availability by ( date - time range )
-this functions allows you to check the availability of booking to particular Stadium at particular date and time-range ,
+This functions allows you to check the availability of booking to particular Stadium at particular date and time-range ,
 Before make a book .
 - NOTICE : the NEW_STADIUM_BOOK function alredy make a check before excuteing the booking . 
 - NOTICE: There are NO ANY charge for this function .
@@ -70,6 +70,29 @@ http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=123456
 {"SUCCESS":"true","MSG":" -1111- This book is ALLOWED "}
 ```
 
+
+
+
+# (3) Booking canceling by (Booking id)
+This functions allows you to cancel a book .
+- NOTICE: There are NO ANY charge for this function .
+* Required Parameter
+```
+- FUNC = BOOKING_CANCELING // to Selecet this function 
+- API_USER & API_PASS  // authentication DATA
+- BOOKING_ID // the number ID of Booking that you want to cancel
+```
+
+* Request Example 
+- Request as HTTP with GET DATA
+```
+http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=12345678&FUNC=BOOKING_CANCELING&BOOKING_ID=4898
+```
+- AND Respone data will be (JSON)
+
+```
+{"SUCCESS":"true","MSG":" -2222- successful CANCELING "}
+```
 
 
 
