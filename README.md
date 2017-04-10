@@ -22,9 +22,9 @@ this functions for make new book to particular Stadium at particular date and ti
 - API_USER & API_PASS  // authentication DATA
 - STADIUM_ID // the number ID of STADIUM that you want to make a book in
 - BOOKING_DATE // the Date that you want to make a aboot at , must be as unix timestamp Example : 1489352400000 -> 12/3/2016
-- BOOKING_TIME_RANGE_id
-- USER_PHONE
-- USER_NAME
+- BOOKING_TIME_RANGE_id // the id of the time range that you want to make a book at , from ( 1 to 5 ) only
+- USER_PHONE // the Phone number of the user ( the booker )
+- USER_NAME // the Full Name of the user ( the booker )
 
 ```
 
