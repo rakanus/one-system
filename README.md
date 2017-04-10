@@ -99,5 +99,9 @@ http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=123456
 ```
 
 
+# API Errors Reference
+Some Times Somthing Just Gone Wrong and it is hard to Debug so Our System is smart enough,
+to Repoert an Error Before excuteing any FUNCTION , and here it is a Reference for all Errors that you might face when start to integration with our system
+
 
 
