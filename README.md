@@ -16,6 +16,10 @@ this version of webservices is (v1.0.0) which support these functions only :
 * All Respone will be in UTF-8 unicode.
 
 # API documentation 
+The Test Environment of API is : 
+``` 
+test-one-system.baratit.com.sa
+```
 
 # (1) New Stadium Book 
 This functions for make new book to particular Stadium at particular date and time-range .
