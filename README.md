@@ -98,6 +98,13 @@ http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=123456
 {"SUCCESS":"true","MSG":" -2222- successful CANCELING "}
 ```
 
+# How To get STADIUM_ID ? 
+The STADIUM_ID will provided by baratit .
+for Testing purpose you can use these STADIUM_ID's
+| STADIUM_ID     | STADIUM Name   |
+| --------|---------|
+| 33 |ملعب تجريبي  1|
+| 34 |ملعب تجريبي  2|
 
 # API Errors Reference
 Some Times Somthing Just Gone Wrong and it is hard to Debug so Our System is smart enough,
