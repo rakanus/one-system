@@ -19,7 +19,7 @@ this version of webservices is (v1.0.0) which support these functions only :
 
 # (1) New Stadium Book 
 this functions for make new book to particular Stadium at particular date and time-range .
-NOTICE: There are a charge for each Request with this function .
+- NOTICE: There are a charge for each Request with this function .
 * Required Parameter
 ```
 - FUNC = NEW_STADIUM_BOOK // to Selecet this function 
@@ -47,15 +47,15 @@ http://test-one-system.baratit.com.sa/API.php?API_USER=FIRST_APP&API_PASS=123456
 # (2) check availability by ( date - time range )
 this functions allows you to check the availability of booking to particular Stadium at particular date and time-range ,
 Before make a book .
-NOTICE : the NEW_STADIUM_BOOK function alredy make a check before excuteing the booking . 
-NOTICE: There are NO ANY charge for this function .
+- NOTICE : the NEW_STADIUM_BOOK function alredy make a check before excuteing the booking . 
+- NOTICE: There are NO ANY charge for this function .
 * Required Parameter
 ```
 - FUNC = CHECK_AVAILABILITY // to Selecet this function 
 - API_USER & API_PASS  // authentication DATA
-- STADIUM_ID // the number ID of STADIUM that you want to make a book in
-- BOOKING_DATE // the Date that you want to make a aboot at , must be as unix timestamp Example : 1489352400000 -> 12/3/2016
-- BOOKING_TIME_RANGE_id // the id of the time range that you want to make a book at , from ( 1 to 5 ) only
+- STADIUM_ID // the number ID of STADIUM that you want to check 
+- BOOKING_DATE // the Date that you want to check at , must be as unix timestamp Example : 1489352400000 -> 12/3/2016
+- BOOKING_TIME_RANGE_id // the id of the time range that you want to check at , from ( 1 to 5 ) only
 
 ```
 
