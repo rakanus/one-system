@@ -10,12 +10,27 @@ this version of webservices is (v1.0.0) which support these functions only :
 
 * This API work under HTTP protocol only .
 * All Request data must send by _GET only .
-* All Request must contain authentication DATA , will provided by baratit .
+* All and every Request must contain authentication DATA , will provided by baratit .
 * All Respone will be as JSON data only .
 
 # API documentation 
 
-# New Stadium Book 
+# (1) New Stadium Book 
+this functions for make new book to particular Stadium at particular date and time-range .
+* Required Parameter
+```
+- API_USER & API_PASS  // authentication DATA
+- STADIUM_ID // the number ID of STADIUM that you want to make a book in
+- BOOKING_DATE // the Date that you want to make a aboot at , must be as unix timestamp Example : 1489352400000 -> 12/3/2016
+- BOOKING_TIME_RANGE_id
+- USER_PHONE
+- USER_NAME
+
+```
+
+* Request Example 
+
+
 
 
 
