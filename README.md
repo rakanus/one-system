@@ -108,16 +108,16 @@ for Testing purpose you can use these STADIUM_ID's
 | 34 |ملعب تجريبي  2|
 
 # How To get BOOKING_TIME_RANGE_id ? 
-The BOOKING_TIME_RANGE_id Could be change ,
+The BOOKING_TIME_RANGE_id Could be change in the future ,
 if there are any changes will be provided by baratit .
 
 | BOOKING_TIME_RANGE_id     | Time range |
 | --------|---------|
-| 1 | من الساعة ١ ص إلى ٢ مساءاً|
-| 2 | من الساعة ١ ص إلى ٢ مساءاً|
-| 3 | من الساعة ١ ص إلى ٢ مساءاً|
-| 4 | من الساعة ١ ص إلى ٢ مساءاً|
-| 5 | من الساعة ١ ص إلى ٢ مساءاً|
+| 1 | من الساعة 4 مساءاً إلى 6 مساءاً|
+| 2 | من الساعة 6 مساءاً إلى 8 مساءاً|
+| 3 | من الساعة 8 مساءاً إلى 10 مساءاً|
+| 4 | من الساعة 10 مساءاً إلى 12 صباحاً|
+| 5 | من الساعة 12 صباحاً إلى 2 صباحاً|
 
 
 # API Errors Reference
