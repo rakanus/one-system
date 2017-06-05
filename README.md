@@ -143,9 +143,9 @@ if there are any changes will be provided by baratit .
 
 | BOOKING_TIME_RANGE_id     | Time range |
 | --------|---------|
-| 1 |9:30 م - 11:00 م|
-| 2 |11:00 م- 12:30 ص|
-| 3 |12:30 ص - 2:00 ص|
+| 1 |من  9:30 م إلى 11:00 م|
+| 2 |من 11:00 م إلى 12:30 ص|
+| 3 |من 12:30 ص إلى 2:00 ص|
 
  (last update at 2017/6/5)
 
