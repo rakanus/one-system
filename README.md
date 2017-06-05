@@ -143,12 +143,11 @@ if there are any changes will be provided by baratit .
 
 | BOOKING_TIME_RANGE_id     | Time range |
 | --------|---------|
-| 1 | من الساعة 4 مساءاً إلى 6 مساءاً|
-| 2 | من الساعة 6 مساءاً إلى 8 مساءاً|
-| 3 | من الساعة 8 مساءاً إلى 10 مساءاً|
-| 4 | من الساعة 10 مساءاً إلى 12 صباحاً|
-| 5 | من الساعة 12 صباحاً إلى 2 صباحاً|
+| 1 |9:30 م - 11:00 م|
+| 2 |11:00 م- 12:30 ص|
+| 3 |12:30 ص - 2:00 ص|
 
+ (last update at 2017/6/5)
 
 # API Errors Reference
 Some Times Somthing Just Gone Wrong and it is hard to Debug so Our System is smart enough,
